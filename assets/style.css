@@ -109,6 +109,10 @@ h2 {
     color: var(--secondary-color);
 }
 
+#contact .table-dark * {
+    background-color: transparent;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -126,8 +130,8 @@ h2 {
 /* medium devices (tablets, 768px and up) */
 
 @media screen and (min-width: 768px) {
+    /* Make all service cards the same height for consistency */
     #services .card-body {
-        /* make all services cards the same height for consistency*/
         min-height: 191px;
     }
 }
